@@ -10,7 +10,3 @@ class CountingBits_338(object):
         for i in range(num + 1):
             rlist[i] = (i & 1) + rlist[i >> 1]
         return rlist
-
-cb = CountingBits_338()
-lst = cb.countBits(10)
-print(lst)

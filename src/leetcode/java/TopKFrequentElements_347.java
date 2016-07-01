@@ -7,6 +7,10 @@ import java.util.List;
 import java.util.PriorityQueue;
 
 public class TopKFrequentElements_347 {
+  // 1. Sort the array
+  // 2. Traverse the array to make tuple (key, frequency)
+  // 3. Add the tuple to priority queue which is sorted by value
+  // 4. Retrieve the top k from queue and add to the result list
   public List<Integer> topKFrequent(int[] nums, int k) {
     PriorityQueue<Tuple> queue = new PriorityQueue<>(k, new Comparator<Tuple>() {
       @Override

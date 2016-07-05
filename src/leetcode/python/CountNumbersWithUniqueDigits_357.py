@@ -1,6 +1,7 @@
 class CountNumbersWithUniqueDigits_357(object):
     def countNumbersWithUniqueDigits(self, n):
         """
+        f(i): if n = i, what is the unique digits number of 10^i
         f(0): 1
         f(1): f(0) + 9
         f(2): f(1) + 9 * 9
@@ -9,7 +10,9 @@ class CountNumbersWithUniqueDigits_357(object):
         ...
         ...
         ...
-        f(i) = f(i - 1)(leading zero) + 9(non-leading zero) * remaining possibility
+        f(n) = f(n - 1)(leading zero) + 9(non-leading zero) * remaining possibility
+
+        final just sum the dp[0:n]
         """
         if not n:
             return 1

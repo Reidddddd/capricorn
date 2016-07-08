@@ -1,4 +1,4 @@
-package leetcode.java;
+package leetcode.java.bit_manipulation;
 
 public class CountingBits_338 {
   // Take number X for example, 10011001. 

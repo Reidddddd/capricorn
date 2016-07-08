@@ -1,4 +1,4 @@
-package leetcode.java;
+package leetcode.java.bit_manipulation;
 
 public class SingleNumber_136 {
   // n ^ n = 0

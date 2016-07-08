@@ -1,4 +1,4 @@
-package leetcode.java;
+package leetcode.java.bit_manipulation;
 
 public class SumOfTwoIntegers_371 {
   // xor op: get the sum without carry

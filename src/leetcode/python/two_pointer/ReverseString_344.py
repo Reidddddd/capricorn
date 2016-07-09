@@ -4,6 +4,6 @@ class ReverseString_344(object):
         If len <= 1, no need to reverse.
         else using a reverse slice
         """
-        if (len(s) < 2):
+        if len(s) < 2:
             return s
         return s[::-1]

@@ -1,4 +1,4 @@
-package leetcode.java;
+package leetcode.java.two_pointer;
 
 public class ReverseString_344 {
   // First, convert the string to char array schar[].

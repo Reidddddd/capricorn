@@ -1,4 +1,4 @@
-package leetcode.java.two_pointer;
+package leetcode.java.two_pointers;
 
 public class MoveZeroes_283 {
   public void moveZeroes(int[] nums) {

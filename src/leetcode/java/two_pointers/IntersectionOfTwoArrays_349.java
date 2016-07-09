@@ -1,4 +1,4 @@
-package leetcode.java.two_pointer;
+package leetcode.java.two_pointers;
 
 import java.util.HashSet;
 

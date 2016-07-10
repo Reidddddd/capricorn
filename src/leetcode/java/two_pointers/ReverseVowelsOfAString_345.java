@@ -1,4 +1,4 @@
-package leetcode.java;
+package leetcode.java.two_pointers;
 
 public class ReverseVowelsOfAString_345 {
   public String reverseVowels(String s) {

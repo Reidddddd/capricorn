@@ -4,17 +4,14 @@ public class RemoveNthNodeFromEndOfList_19 {
   public ListNode removeNthFromEnd(ListNode head, int n) {
     ListNode fast = head;
     ListNode nth = head;
-    int i = 1;
+    int i = 0;
     while (i++ < n) fast = fast.next;
-
-    ListNode parent = null;
+    if (fast == null) return head.next;
     while (fast.next != null) {
       fast = fast.next;
-      parent = nth;
       nth = nth.next;
     }
-
-    parent.next = nth.next;
+    nth.next = nth.next.next;
     return head;
   }
 

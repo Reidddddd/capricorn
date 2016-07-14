@@ -17,12 +17,14 @@ public class PartitionList_86 {
       }
       head = head.next;
     }
+    bigger.next = null;
+    smaller.next = bHead.next;
+    return sHead.next;
   }
 
   class ListNode {
     int val;
     ListNode next;
-
     ListNode(int x) {
       val = x;
       next = null;

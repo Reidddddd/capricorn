@@ -8,6 +8,9 @@ class TreeNode(object):
 class MaximumDepthOfBinaryTree_104(object):
     def maxDepth(self, root):
         """
+        :type root: TreeNode
+        :rtype: int
+
         1. if root == null, return 0;
         2. else call maxDepth recursive.
         """

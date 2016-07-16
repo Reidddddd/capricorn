@@ -8,10 +8,13 @@ class TreeNode(object):
 class InvertBinaryTree_226(object):
     def invertTree(self, root):
         """
+        :type root: TreeNode
+        :rtype: TreeNode
+
         always remember check the initial state like empty, none
         swap is from top to down, then left to right
         """
-        if (root == None): return root
+        if root == None: return root
 
         swap = root.left
         root.left = root.right

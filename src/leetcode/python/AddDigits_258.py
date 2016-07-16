@@ -1,6 +1,9 @@
 class AddDigits_258(object):
     def addDigits(self, num):
         """
+        :type num: int
+        :rtype: int
+
         Digital root
         Congruence formula
         """

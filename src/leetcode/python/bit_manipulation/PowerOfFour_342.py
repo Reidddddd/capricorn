@@ -1,6 +1,9 @@
 class PowerOfFour_342(object):
     def isPowerOfFour(self, num):
         """
+        :type num: int
+        :rtype: bool
+
         It's easy to find that power of 4 numbers have those 3 common features.
         First, greater than or equal to 0.
         Second, only have one '1' bit in their binary notation,

@@ -1,6 +1,9 @@
 class SingleNumberIII_260(object):
     def singleNumber(self, nums):
         """
+        :type nums: List[int]
+        :rtype: List[int]
+
         1. we XOR all elements in the array, and get the XOR of the two numbers we need
         to find. Note that since the two numbers are distinct, so there must be a set bit (that is, the
         bit with value '1') in the XOR result. Find out an arbitrary set bit (for example, the

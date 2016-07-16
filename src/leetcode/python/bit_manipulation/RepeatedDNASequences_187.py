@@ -5,6 +5,10 @@ class RepeatedDNASequences_187(object):
     # else:
     #   record.add(substring)
     def findRepeatedDnaSequences(self, s):
+        """
+        :type s: str
+        :rtype: List[str]
+        """
         r, record = set(), set()
         for i in range(len(s) - 9):
             substring = s[i:i + 10]

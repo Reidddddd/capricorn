@@ -1,6 +1,9 @@
 class CountingBits_338(object):
     def countBits(self, num):
         """
+        :type num: int
+        :rtype: List[int]
+
         Take number X for example, 10011001.
         Divide it in 2 parts:
         <1>.the last digit (1 or 0, which is (i&1), == (i%2))

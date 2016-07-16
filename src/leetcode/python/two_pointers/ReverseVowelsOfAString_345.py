@@ -1,5 +1,9 @@
 class ReverseVowelsOfAString_345(object):
     def reverseVowels(self, s):
+        """
+        :type s: str
+        :rtype: str
+        """
         vowels = {'a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U'}
         ls = list(s)
         i, j = 0, len(ls) - 1

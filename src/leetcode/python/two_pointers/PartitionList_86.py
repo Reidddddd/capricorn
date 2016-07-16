@@ -6,6 +6,11 @@ class ListNode(object):
 
 class PartitionList_86(object):
     def partition(self, head, x):
+        """
+        :type head: ListNode
+        :type x: int
+        :rtype: ListNode
+        """
         if not head:
             return None
         shd = smaller = ListNode(-1)

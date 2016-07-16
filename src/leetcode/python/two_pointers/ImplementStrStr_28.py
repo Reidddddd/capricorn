@@ -1,5 +1,9 @@
 class ImplementStrStr_28(object):
     """
+    :type haystack: str
+    :type needle: str
+    :rtype: int
+
     The fastest way:　↓
     for i in range(len(haystack) - len(needle) + 1):
         if haystack[i:i + len(needle)] == needle:

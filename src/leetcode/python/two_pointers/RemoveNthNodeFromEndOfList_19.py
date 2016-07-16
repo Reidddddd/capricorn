@@ -6,6 +6,11 @@ class ListNode(object):
 
 class RemoveNthNodeFromEndOfList_19(object):
     def removeNthFromEnd(self, head, n):
+        """
+        :type head: ListNode
+        :type n: int
+        :rtype: ListNode
+        """
         nth = fast = head
         for _ in range(n):
             fast = fast.next

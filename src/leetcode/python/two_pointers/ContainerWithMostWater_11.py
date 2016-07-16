@@ -1,5 +1,9 @@
 class ContainerWithMostWater_11(object):
     def maxArea(self, height):
+        """
+        :type height: List[int]
+        :rtype: int
+        """
         head = 0
         tail = len(height) - 1
         area = 0

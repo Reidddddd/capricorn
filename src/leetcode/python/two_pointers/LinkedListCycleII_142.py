@@ -6,6 +6,10 @@ class ListNode(object):
 
 class LinkedListCycleII_142(object):
     def detectCycle(self, head):
+        """
+        :type head: ListNode
+        :rtype: ListNode
+        """
         if head is None:
             return None
         slow = head

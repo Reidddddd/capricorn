@@ -1,5 +1,9 @@
 class SortColors_75(object):
     def sortColors(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: void Do not return anything, modify nums in-place instead.
+        """
         zeroPos = 0
         twoPos = len(nums) - 1
         for i in range(twoPos + 1):

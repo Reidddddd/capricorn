@@ -1,7 +1,5 @@
 package leetcode.java.hard;
 
-import java.util.Arrays;
-
 public class CreateMaximumNumber_321 {
   public int[] maxNumber(int[] nums1, int[] nums2, int k) {
     int[] res = null;
@@ -26,17 +24,13 @@ public class CreateMaximumNumber_321 {
   }
 
   private int[] getMaxSublist(int[] nums, int k) {
-    int drop = nums.length - k;
-    int[] sub = new int[nums.length];
+    int[] sub = new int[k];
     int pos = 0;
-    for (int num : nums) {
-      while (drop > 0 && pos > 0 && sub[pos - 1] < num) {
-        drop--;
-        pos--;
-      }
-      sub[pos++] = num;
+    for (int i = 0; i < nums.length; i++) {
+      while (pos > 0 && pos + nums.length - i > k && sub[pos - 1] < nums[i]) pos--;
+      if (pos < k) sub[pos++] = nums[i];
     }
-    return Arrays.copyOf(sub, k);
+    return sub;
   }
 
   private int[] merge(int[] nums1, int[] nums2) {

@@ -6,14 +6,12 @@ public class EliminationGame_390 {
     int step = 1, head = 1;
     int remaining = n;
     while (remaining > 1) {
-      if (left || remaining % 2 == 1) {
-        head = head + step;
-      }
+      if (left || remaining % 2 == 1) head += step;
       left = !left;
       remaining /= 2;
       step *= 2;
     }
-    return 0;
+    return head;
   }
 
   public static void main(String[] args) {

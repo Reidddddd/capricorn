@@ -31,6 +31,7 @@ public class BinaryTreeRightSideView_199 {
     dfs(node.right);
     depth--;
   }
+
   class TreeNode {
     int val;
     TreeNode left;

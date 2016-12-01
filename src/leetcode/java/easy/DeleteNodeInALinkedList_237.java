@@ -6,10 +6,10 @@ public class DeleteNodeInALinkedList_237 {
     node.val = node.next.val;
     node.next = node.next.next;
   }
-}
 
-class ListNode {
-  int val;
-  ListNode next;
-  ListNode(int x) { val = x; }
+  class ListNode {
+    int val;
+    ListNode next;
+    ListNode(int x) { val = x; }
+  }
 }

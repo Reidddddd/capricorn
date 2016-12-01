@@ -23,11 +23,11 @@ public class BinaryTreeLevelOrderTraversal_102 {
     }
     return result;
   }
-}
 
-class TreeNode {
-  int val;
-  TreeNode left;
-  TreeNode right;
-  TreeNode(int x) { val = x; }
+  class TreeNode {
+    int val;
+    TreeNode left;
+    TreeNode right;
+    TreeNode(int x) { val = x; }
+  }
 }

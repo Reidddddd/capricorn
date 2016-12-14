@@ -1,7 +1,7 @@
 package leetcode.java.hard;
 
 import java.util.HashMap;
-
+ 
 public class LongestConsecutiveSequence_128 {
   public int longestConsecutive(int[] nums) {
     HashMap<Integer, Integer> map = new HashMap<>();
@@ -17,5 +17,6 @@ public class LongestConsecutiveSequence_128 {
         map.put(i + right, sum);
       }
     }
+    return res;
   }
 }

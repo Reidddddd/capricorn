@@ -1,6 +1,6 @@
 package leetcode.java.medium;
 
-public class BitwiseANDOfNumbersRange_201 {
+public class BitwiseAndOfNumbersRange_201 {
   // The approach is to find the leftmost common digits of m and n
   public int rangeBitwiseAnd(int m, int n) {
     if (m == 0) return 0;

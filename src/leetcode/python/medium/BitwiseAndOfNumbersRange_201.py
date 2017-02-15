@@ -1,4 +1,4 @@
-class BitwiseANDOfNumbersRange_201(object):
+class BitwiseAndOfNumbersRange_201(object):
     def rangeBitwiseAnd(self, m, n):
         """
         :type m: int

@@ -1,4 +1,4 @@
-package leetcode.java.medium;
+package leetcode.java;
 
 public class UniquePathsII_63 {
   public int uniquePathsWithObstacles(int[][] obstacleGrid) {

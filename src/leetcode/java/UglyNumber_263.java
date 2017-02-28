@@ -1,4 +1,4 @@
-package leetcode.java.easy;
+package leetcode.java;
 
 public class UglyNumber_263 {
   public boolean isUgly(int num) {

@@ -1,4 +1,4 @@
-package leetcode.java.easy;
+package leetcode.java;
 
 public class PalindromeLinkedList_234 {
   public boolean isPalindrome(ListNode head) {

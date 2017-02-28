@@ -1,4 +1,4 @@
-package leetcode.java.medium;
+package leetcode.java;
 
 public class ProductOfArrayExceptSelf_238 {
   public int[] productExceptSelf(int[] nums) {

@@ -1,4 +1,4 @@
-package leetcode.java.easy;
+package leetcode.java;
 
 public class ImplementStrStr_28 {
   public int strStr(String haystack, String needle) {

@@ -1,4 +1,4 @@
-package leetcode.java.easy;
+package leetcode.java;
 
 public class PowerOfFour_342 {
   // It's easy to find that power of 4 numbers have those 3 common features.

@@ -1,4 +1,4 @@
-package leetcode.java.hard;
+package leetcode.java;
 
 public class TrappingRainWater_42 {
   public int trap(int[] height) {

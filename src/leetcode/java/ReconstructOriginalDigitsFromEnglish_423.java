@@ -1,4 +1,4 @@
-package leetcode.java.medium;
+package leetcode.java;
 
 public class ReconstructOriginalDigitsFromEnglish_423 {
   public String originalDigits(String s) {

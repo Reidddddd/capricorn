@@ -1,4 +1,4 @@
-package leetcode.java.easy;
+package leetcode.java;
 
 public class BalancedBinaryTree_110 {
   public boolean isBalanced(TreeNode root) {

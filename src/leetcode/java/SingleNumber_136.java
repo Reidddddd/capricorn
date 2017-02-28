@@ -1,4 +1,4 @@
-package leetcode.java.medium;
+package leetcode.java;
 
 public class SingleNumber_136 {
   // n ^ n = 0

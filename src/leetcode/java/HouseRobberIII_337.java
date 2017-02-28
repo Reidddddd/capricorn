@@ -1,4 +1,4 @@
-package leetcode.java.medium;
+package leetcode.java;
 
 public class HouseRobberIII_337 {
   public int rob(TreeNode root) {

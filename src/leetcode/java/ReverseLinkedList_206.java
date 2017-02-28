@@ -1,4 +1,4 @@
-package leetcode.java.easy;
+package leetcode.java;
 
 public class ReverseLinkedList_206 {
   public ListNode reverseList(ListNode head) {

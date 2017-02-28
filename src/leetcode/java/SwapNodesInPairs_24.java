@@ -1,4 +1,4 @@
-package leetcode.java.easy;
+package leetcode.java;
 
 public class SwapNodesInPairs_24 {
   public ListNode swapPairs(ListNode head) {

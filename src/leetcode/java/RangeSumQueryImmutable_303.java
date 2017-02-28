@@ -1,4 +1,4 @@
-package leetcode.java.easy;
+package leetcode.java;
 
 public class RangeSumQueryImmutable_303 {
   private int[] nums;

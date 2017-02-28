@@ -1,4 +1,4 @@
-package leetcode.java.medium;
+package leetcode.java;
 
 public class CourseSchedule_207 {
   public boolean canFinish(int numCourses, int[][] prerequisites) {

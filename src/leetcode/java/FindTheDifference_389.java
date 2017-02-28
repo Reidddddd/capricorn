@@ -1,4 +1,4 @@
-package leetcode.java.easy;
+package leetcode.java;
 
 public class FindTheDifference_389 {
   public char findTheDifference(String s, String t) {

@@ -1,4 +1,4 @@
-package leetcode.java.medium;
+package leetcode.java;
 
 public class CountNumbersWithUniqueDigits_357 {
   // Stores:

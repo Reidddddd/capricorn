@@ -1,4 +1,4 @@
-package leetcode.java.easy;
+package leetcode.java;
 
 public class RemoveDuplicatesFromSortedArray_26 {
   public int removeDuplicates(int[] nums) {

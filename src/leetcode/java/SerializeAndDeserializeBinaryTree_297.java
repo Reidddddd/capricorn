@@ -1,4 +1,4 @@
-package leetcode.java.hard;
+package leetcode.java;
 
 public class SerializeAndDeserializeBinaryTree_297 {
   private static final String NULL = "$";

@@ -1,4 +1,4 @@
-package leetcode.java.easy;
+package leetcode.java;
 
 public class BestTimeToBuyAndSellStock_121 {
   public int maxProfit(int[] prices) {

@@ -1,4 +1,4 @@
-package leetcode.java.medium;
+package leetcode.java;
 
 public class RotateList_61 {
   public ListNode rotateRight(ListNode head, int k) {

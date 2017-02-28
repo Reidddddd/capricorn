@@ -1,4 +1,4 @@
-package leetcode.java.hard;
+package leetcode.java;
 
 public class MinimumWindowSubstring_76 {
   public String minWindow(String s, String t) {

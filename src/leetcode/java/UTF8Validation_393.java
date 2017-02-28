@@ -1,4 +1,4 @@
-package leetcode.java.medium;
+package leetcode.java;
 
 public class UTF8Validation_393 {
   public boolean validUtf8(int[] data) {

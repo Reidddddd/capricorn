@@ -1,4 +1,4 @@
-package leetcode.java.easy;
+package leetcode.java;
 
 public class ReverseBits_190 {
   public int reverseBits(int n) {

@@ -1,4 +1,4 @@
-package leetcode.java.easy;
+package leetcode.java;
 
 public class PlusOne_66 {
   public int[] plusOne(int[] digits) {

@@ -1,4 +1,4 @@
-package leetcode.java.hard;
+package leetcode.java;
 
 public class JumpGameII_45 {
   public int jump(int[] nums) {

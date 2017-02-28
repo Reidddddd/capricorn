@@ -1,4 +1,4 @@
-package leetcode.java.medium;
+package leetcode.java;
 
 public class MissingNumber_268 {
   public int missingNumber(int[] nums) {

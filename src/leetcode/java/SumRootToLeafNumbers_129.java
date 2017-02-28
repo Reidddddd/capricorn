@@ -1,4 +1,4 @@
-package leetcode.java.medium;
+package leetcode.java;
 
 public class SumRootToLeafNumbers_129 {
   private int sum;

@@ -1,4 +1,4 @@
-package leetcode.java.easy;
+package leetcode.java;
 
 public class NthDigit_400 {
   public int findNthDigit(int n) {

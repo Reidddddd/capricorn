@@ -1,4 +1,4 @@
-package leetcode.java.medium;
+package leetcode.java;
 
 public class ConvertSortedListToBinarySearchTree_109 {
   public TreeNode sortedListToBST(ListNode head) {

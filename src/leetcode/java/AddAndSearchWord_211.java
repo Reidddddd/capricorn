@@ -1,4 +1,4 @@
-package leetcode.java.medium;
+package leetcode.java;
 
 public class AddAndSearchWord_211 {
   private Dict root = new Dict();

@@ -1,4 +1,4 @@
-package leetcode.java.easy;
+package leetcode.java;
 
 public class ClimbingStairs_70 {
   public int climbStairs(int n) {

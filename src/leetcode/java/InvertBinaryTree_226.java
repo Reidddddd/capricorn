@@ -1,4 +1,4 @@
-package leetcode.java.easy;
+package leetcode.java;
 
 public class InvertBinaryTree_226 {
   // always remember check the initial state like empty, none

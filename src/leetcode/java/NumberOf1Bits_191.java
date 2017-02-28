@@ -1,4 +1,4 @@
-package leetcode.java.easy;
+package leetcode.java;
 
 public class NumberOf1Bits_191 {
   public int hammingWeight(int n) {

@@ -1,4 +1,4 @@
-package leetcode.java.medium;
+package leetcode.java;
 
 public class CountingBits_338 {
   // Take number X for example, 10011001. 

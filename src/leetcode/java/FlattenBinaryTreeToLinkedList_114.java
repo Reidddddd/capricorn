@@ -1,4 +1,4 @@
-package leetcode.java.medium;
+package leetcode.java;
 
 public class FlattenBinaryTreeToLinkedList_114 {
   public void flatten(TreeNode root) {

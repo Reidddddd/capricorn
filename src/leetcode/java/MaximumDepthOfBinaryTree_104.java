@@ -1,4 +1,4 @@
-package leetcode.java.easy;
+package leetcode.java;
 
 public class MaximumDepthOfBinaryTree_104 {
   // 1. if root == null, return 0;

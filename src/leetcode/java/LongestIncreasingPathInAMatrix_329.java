@@ -1,4 +1,4 @@
-package leetcode.java.hard;
+package leetcode.java;
 
 public class LongestIncreasingPathInAMatrix_329 {
   public int longestIncreasingPath(int[][] matrix) {

@@ -1,4 +1,4 @@
-package leetcode.java.hard;
+package leetcode.java;
 
 public class BinaryTreeMaximumPathSum_124 {
   private int max;

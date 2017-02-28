@@ -1,4 +1,4 @@
-package leetcode.java.easy;
+package leetcode.java;
 
 public class MajorityElement_169 {
   public int majorityElement(int[] nums) {

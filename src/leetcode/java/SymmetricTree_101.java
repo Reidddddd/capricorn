@@ -1,4 +1,4 @@
-package leetcode.java.easy;
+package leetcode.java;
 
 public class SymmetricTree_101 {
   public boolean isSymmetric(TreeNode root) {

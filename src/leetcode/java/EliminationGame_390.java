@@ -1,4 +1,4 @@
-package leetcode.java.medium;
+package leetcode.java;
 
 public class EliminationGame_390 {
   public int lastRemaining(int n) {

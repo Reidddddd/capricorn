@@ -1,4 +1,4 @@
-package leetcode.java.medium;
+package leetcode.java;
 
 public class PopulatingNextRightPointersInEachNode_116 {
   public void connect(TreeLinkNode root) {

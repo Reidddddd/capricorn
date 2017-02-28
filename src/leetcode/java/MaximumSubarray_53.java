@@ -1,4 +1,4 @@
-package leetcode.java.medium;
+package leetcode.java;
 
 public class MaximumSubarray_53 {
   public int maxSubArray(int[] nums) {

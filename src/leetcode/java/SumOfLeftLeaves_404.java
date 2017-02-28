@@ -1,4 +1,4 @@
-package leetcode.java.easy;
+package leetcode.java;
 
 public class SumOfLeftLeaves_404 {
   public int sumOfLeftLeaves(TreeNode root) {

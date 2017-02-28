@@ -1,4 +1,4 @@
-package leetcode.java.medium;
+package leetcode.java;
 
 public class PartitionEqualSubsetSum_416 {
   public boolean canPartition(int[] nums) {

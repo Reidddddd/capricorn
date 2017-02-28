@@ -1,4 +1,4 @@
-package leetcode.java.easy;
+package leetcode.java;
 
 public class IsomorphicStrings_205 {
   public boolean isIsomorphic(String s, String t) {

@@ -1,4 +1,4 @@
-package leetcode.java.medium;
+package leetcode.java;
 
 public class WiggleSubsequence_376 {
   public int wiggleMaxLength(int[] nums) {

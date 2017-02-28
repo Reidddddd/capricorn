@@ -1,4 +1,4 @@
-package leetcode.java.medium;
+package leetcode.java;
 
 public class SingleNumberII_137 {
   public int singleNumber(int[] nums) {

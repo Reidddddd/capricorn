@@ -1,4 +1,4 @@
-package leetcode.java.medium;
+package leetcode.java;
 
 public class MinimumSizeSubarraySum_209 {
   public int minSubArrayLen(int s, int[] nums) {

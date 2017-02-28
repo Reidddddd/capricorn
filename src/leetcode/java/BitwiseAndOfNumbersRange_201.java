@@ -1,4 +1,4 @@
-package leetcode.java.medium;
+package leetcode.java;
 
 public class BitwiseAndOfNumbersRange_201 {
   // The approach is to find the leftmost common digits of m and n

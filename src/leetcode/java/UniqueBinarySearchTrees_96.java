@@ -1,4 +1,4 @@
-package leetcode.java.medium;
+package leetcode.java;
 
 public class UniqueBinarySearchTrees_96 {
   public int numTrees(int n) {

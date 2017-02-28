@@ -1,4 +1,4 @@
-package leetcode.java.hard;
+package leetcode.java;
 
 public class PatchingArray_330 {
   public int minPatches(int[] nums, int n) {

@@ -1,4 +1,4 @@
-package leetcode.java.hard;
+package leetcode.java;
 
 public class CreateMaximumNumber_321 {
   public int[] maxNumber(int[] nums1, int[] nums2, int k) {

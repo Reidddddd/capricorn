@@ -1,4 +1,4 @@
-package leetcode.java.medium;
+package leetcode.java;
 
 public class LongestAbsoluteFilePath_388 {
   public int lengthLongestPath(String input) {

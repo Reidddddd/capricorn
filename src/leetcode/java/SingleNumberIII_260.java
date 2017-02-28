@@ -1,4 +1,4 @@
-package leetcode.java.medium;
+package leetcode.java;
 
 public class SingleNumberIII_260 {
   // 1. we XOR all elements in the array, and get the XOR of the two numbers we need

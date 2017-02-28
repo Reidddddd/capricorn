@@ -1,4 +1,4 @@
-package leetcode.java.medium;
+package leetcode.java;
 
 public class UglyNumberII_264 {
   public int nthUglyNumber(int n) {

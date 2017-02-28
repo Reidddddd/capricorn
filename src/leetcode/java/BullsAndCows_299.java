@@ -1,4 +1,4 @@
-package leetcode.java.easy;
+package leetcode.java;
 
 public class BullsAndCows_299 {
   public String getHint(String secret, String guess) {

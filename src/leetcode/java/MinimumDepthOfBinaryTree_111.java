@@ -1,4 +1,4 @@
-package leetcode.java.easy;
+package leetcode.java;
 
 public class MinimumDepthOfBinaryTree_111 {
   public int minDepth(TreeNode root) {

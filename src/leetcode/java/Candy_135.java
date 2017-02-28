@@ -1,4 +1,4 @@
-package leetcode.java.hard;
+package leetcode.java;
 
 public class Candy_135 {
   public int candy(int[] ratings) {

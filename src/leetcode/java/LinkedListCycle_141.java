@@ -1,4 +1,4 @@
-package leetcode.java.easy;
+package leetcode.java;
 
 public class LinkedListCycle_141 {
   public boolean hasCycle(ListNode head) {

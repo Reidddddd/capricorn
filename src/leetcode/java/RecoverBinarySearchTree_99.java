@@ -1,4 +1,4 @@
-package leetcode.java.hard;
+package leetcode.java;
 
 public class RecoverBinarySearchTree_99 {
   private TreeNode first, second, temp;

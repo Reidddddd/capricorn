@@ -1,4 +1,4 @@
-package leetcode.java.medium;
+package leetcode.java;
 
 public class ArithmeticSlices_413 {
   public int numberOfArithmeticSlices(int[] A) {

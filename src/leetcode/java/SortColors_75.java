@@ -1,4 +1,4 @@
-package leetcode.java.medium;
+package leetcode.java;
 
 public class SortColors_75 {
   public void sortColors(int[] nums) {

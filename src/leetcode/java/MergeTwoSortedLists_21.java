@@ -1,4 +1,4 @@
-package leetcode.java.easy;
+package leetcode.java;
 
 public class MergeTwoSortedLists_21 {
   public ListNode mergeTwoLists(ListNode l1, ListNode l2) {

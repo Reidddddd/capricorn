@@ -1,4 +1,4 @@
-package leetcode.java.medium;
+package leetcode.java;
 
 public class PartitionList_86 {
   public ListNode partition(ListNode head, int x) {

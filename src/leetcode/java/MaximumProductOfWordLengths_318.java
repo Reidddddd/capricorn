@@ -1,4 +1,4 @@
-package leetcode.java.medium;
+package leetcode.java;
 
 public class MaximumProductOfWordLengths_318 {
   public int maxProduct(String[] words) {

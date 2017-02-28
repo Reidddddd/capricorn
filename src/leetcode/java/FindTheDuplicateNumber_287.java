@@ -1,4 +1,4 @@
-package leetcode.java.hard;
+package leetcode.java;
 
 public class FindTheDuplicateNumber_287 {
   public int findDuplicate(int[] nums) {

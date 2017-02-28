@@ -1,4 +1,4 @@
-package leetcode.java.medium;
+package leetcode.java;
 
 public class IntegerBreak_343 {
   public int integerBreak(int n) {

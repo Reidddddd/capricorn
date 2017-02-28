@@ -1,4 +1,4 @@
-package leetcode.java.easy;
+package leetcode.java;
 
 public class LongestPalindrome_409 {
   public int longestPalindrome(String s) {

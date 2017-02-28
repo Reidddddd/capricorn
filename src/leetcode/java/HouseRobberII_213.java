@@ -1,4 +1,4 @@
-package leetcode.java.medium;
+package leetcode.java;
 
 public class HouseRobberII_213 {
   public int rob(int[] nums) {

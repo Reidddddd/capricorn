@@ -1,4 +1,4 @@
-package leetcode.java.easy;
+package leetcode.java;
 
 public class DeleteNodeInALinkedList_237 {
   public void deleteNode(ListNode node) {

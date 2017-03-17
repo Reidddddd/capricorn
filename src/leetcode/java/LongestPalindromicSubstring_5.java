@@ -23,9 +23,4 @@ public class LongestPalindromicSubstring_5 {
       length = k - j - 1;
     }
   }
-
-  public static void main(String[] args) {
-    LongestPalindromicSubstring_5 lps = new LongestPalindromicSubstring_5();
-    System.out.println(lps.longestPalindrome("bdbabc"));
-  }
 }

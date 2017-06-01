@@ -7,13 +7,6 @@ public class RemoveLinkedListElements_203 {
     return head.val == val ? head.next : head;
   }
 
-  private ListNode nextNode(ListNode node, int val) {
-    if (node == null) return null;
-    node.next = nextNode(node.next, val);
-    if (node.val == val) return node.next;
-    return node;
-  }
-
   class ListNode {
     int val;
     ListNode next;

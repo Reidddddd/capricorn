@@ -13,9 +13,4 @@ public class EliminationGame_390 {
     }
     return head;
   }
-
-  public static void main(String[] args) {
-    EliminationGame_390 eg = new EliminationGame_390();
-    System.out.println(eg.lastRemaining(18));
-  }
 }

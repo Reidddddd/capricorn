@@ -21,10 +21,4 @@ public class ArithmeticSlices_413 {
     }
     return res;
   }
-
-  public static void main(String[] args) {
-    ArithmeticSlices_413 as = new ArithmeticSlices_413();
-    int[] A = { 1, 2, 3, 4, 7, 10, 13 };
-    System.out.println(as.numberOfArithmeticSlices(A));
-  }
 }

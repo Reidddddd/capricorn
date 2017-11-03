@@ -16,10 +16,4 @@ public class UTF8Validation_393 {
     }
     return count == 0;
   }
-
-  public static void main(String[] args) {
-    UTF8Validation_393 ust = new UTF8Validation_393();
-    int[] data = { 255 };
-    System.out.println(ust.validUtf8(data));
-  }
 }

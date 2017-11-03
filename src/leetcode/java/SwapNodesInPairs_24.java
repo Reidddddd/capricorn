@@ -10,10 +10,10 @@ public class SwapNodesInPairs_24 {
     h.next = head;
     return h;
   }
-}
 
-class ListNode {
-  int val;
-  ListNode next;
-  ListNode(int x) { val = x; }
+  class ListNode {
+    int val;
+    ListNode next;
+    ListNode(int x) { val = x; }
+  }
 }

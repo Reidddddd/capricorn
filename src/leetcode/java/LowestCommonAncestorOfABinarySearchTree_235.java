@@ -10,11 +10,11 @@ public class LowestCommonAncestorOfABinarySearchTree_235 {
     if (p.val < root.val && q.val < root.val) return lowestCommonAncestor(root.left, p, q);
     return lowestCommonAncestor(root.right, p, q);
   }
-}
 
-class TreeNode {
-  int val;
-  TreeNode left;
-  TreeNode right;
-  TreeNode(int x) { val = x; }
+  class TreeNode {
+    int val;
+    TreeNode left;
+    TreeNode right;
+    TreeNode(int x) { val = x; }
+  }
 }

@@ -36,10 +36,4 @@ public class SubstringWithConcatenationOfAllWords_30 {
     }
     return results;
   }
-
-  public static void main(String[] args) {
-    SubstringWithConcatenationOfAllWords_30 sw = new SubstringWithConcatenationOfAllWords_30();
-    String[] words = { "foo", "bar" };
-    System.out.println(sw.findSubstring("barfoothefoobarman", words));
-  }
 }

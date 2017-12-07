@@ -16,4 +16,11 @@ public class BinaryTreePreorderTraversal_144 {
     addToList(root.left, list);
     addToList(root.right, list);
   }
+
+  class TreeNode {
+    int val;
+    TreeNode left;
+    TreeNode right;
+    TreeNode(int x) { val = x; }
+  }
 }

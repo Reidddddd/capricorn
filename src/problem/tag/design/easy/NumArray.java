@@ -1,0 +1,27 @@
+package problem.tag.design.easy;
+
+/**
+ * 303. Range Sum Query - Immutable
+ * <p></p>
+ * https://leetcode.com/problems/range-sum-query-immutable/
+ * <p></p>
+ */
+public class NumArray {
+
+  private int[] nums;
+
+  public NumArray(int[] nums) {
+    for (int i = 1; i < nums.length; i++) {
+      nums[i] += nums[i - 1];
+    }
+    this.nums = nums;
+  }
+
+  public int sumRange(int left, int right) {
+    if (left == 0) {
+      return nums[right];
+    }
+    return nums[right] - nums[left - 1];
+  }
+
+}
